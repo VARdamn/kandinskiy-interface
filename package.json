@@ -1,5 +1,5 @@
 {
-  "name": "my-turborepo",
+  "name": "Управление ИТ-сервисами и контентом",
   "private": true,
   "scripts": {
     "build": "turbo run build",
