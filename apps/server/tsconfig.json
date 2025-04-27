@@ -1,9 +1,22 @@
 {
-  "compilerOptions": {
-    "strict": true,
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx",
-	"baseUrl": "src",
-	"esModuleInterop": true
-  }
+	"type": "module",
+    "compilerOptions": {
+		"esModuleInterop": true,
+		"moduleResolution": "bundler",
+		"lib": ["es2020"],
+		"module": "ESNext",
+		"target": "ES2020",
+        "baseUrl": "src",
+        "allowImportingTsExtensions": true,
+        "noEmit": true,
+        "strict": true,
+        "jsx": "react-jsx",
+        "jsxImportSource": "hono/jsx",
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "allowJs": true,
+        "types": [ "bun-types"]
+    },
+    "include": ["src/**/*"],
+	"exclude": ["node_modules"]
 }
